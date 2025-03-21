@@ -1,0 +1,227 @@
+body{
+  background-color: white;
+  margin: 0;
+
+}
+
+nav{
+  height: 100px;
+  
+}
+
+.barra{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+
+  position: fixed; 
+  right: 0px;
+  left: 0px;
+
+}
+
+.menu img{
+  width: auto;
+  height: 50px;
+
+}
+
+.bar{
+  margin-right: 20px;
+  font-family: Arial;
+  font-size: x-small;
+
+}
+
+.logo{
+  height: 80px;
+  width: auto;
+
+}
+
+.navigation{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.icone{
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  
+  font-family: Arial;
+  font-size: x-small;
+}
+
+.icone img{
+  width: 15px;
+  height: auto;
+  margin: 0px 10px;
+
+}
+
+
+header{
+  background-image: url("foto/foto1.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0px 80px;
+
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+
+
+div.im1{
+  background-image: url("foto/foto2.png");
+  background-size: cover;
+  background-position: center;
+  margin: 30px 80px;
+  height: 400px;
+}
+
+div.im2{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 80px;
+}
+
+div.f1{
+  background-image: url("foto/foto4.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 48%;
+}
+
+div.f2{
+  background-image: url("foto/foto5.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 48%;
+}
+
+div.im3{
+  background-image: url("foto/foto3.png");
+  background-size: cover;
+  background-position: center;
+  margin: 30px 80px;
+  height: 400px;
+}
+
+div.im4{
+  background-image: url("foto/foto6.png");
+  background-size: cover;
+  background-position: center;
+  margin: 30px 80px;
+  height: 400px;
+}
+
+footer{
+  height: 400px;
+  
+}
+
+div.news{
+  margin-top: 20px;
+  font-family: Arial;
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+
+}
+
+div.social{
+  height: 100px;
+  margin: 20px 120px;
+  font-family: Arial;
+  font-size: x-small;
+  display: flex;
+  justify-content: space-between;  
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+div.accessibilità{
+  height: 200px;
+  margin: 40px 120px;
+  font-family: Arial;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  
+}
+
+div.sedi{
+  display: flex;
+  justify-content: flex-start;
+  font-family: Arial;
+  font-size: x-small;
+
+  margin-left: 20px;
+}
+
+#b-acc {
+  height: 30px;
+  width: 30px;
+  background-image: url(icone/accessibility.png); 
+  background-size: cover;
+  background-position: center;
+  
+  position: fixed;
+  bottom: 50px;
+  right: 0px;
+}
+
+
+@media (max-width: 600px) {
+  
+  header,div.im1, div.im2, div.im3, div.im4 {
+    margin: 10px 20px; 
+  }
+}
+
+@media (max-width: 546px) {
+
+  .bar{
+    margin: 5px 0px;
+  }
+
+  .menu img {
+  height: 30px;
+  }
+
+  .navigation{
+    display: none;
+
+  }
+
+  .icone{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 837px) {
+  
+  div.social, div.accessibilità{
+    font-size: xx-small;
+    margin:20px 50px; 
+  }
+}
+
+  
